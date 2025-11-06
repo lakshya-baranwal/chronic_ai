@@ -1,14 +1,10 @@
 services:
   - type: web
-    name: chronic-ai-agent
+    name: chronic-ai
     env: python
-    pythonVersion: "3.12.3"
-    rootDir: chronic_agent
-    buildCommand: "pip install -r ../requirements.txt"
-    startCommand: "uvicorn api_server:app --host 0.0.0.0 --port $PORT"
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "uvicorn chronic_agent.api_server:app --host 0.0.0.0 --port 10000"
+    pythonVersion: 3.10
     disks:
-      - name: agent-storage
-        mountPath: /var/data
-    envVars:
-      - key: GOOGLE_API_KEY
-        fromSecret: true
+      - name: data
+        mountPath: /data
