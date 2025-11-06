@@ -1,0 +1,16 @@
+{
+  "name": "Rohan (45M)",
+  "patient_id": "patient_01",
+  "doctor_id": "dr_sharma_001",
+  "medical_history": "Diabetes Type 2 (10 years), Hypertension (5 years)",
+  "medications": [
+    "Metformin 500mg",
+    "Lisinopril 10mg"
+  ],
+  "targets": {
+    "blood_pressure_systolic": 130,
+    "blood_pressure_diastolic": 80,
+    "blood_sugar": 140,
+    "steps": 5000
+  }
+}

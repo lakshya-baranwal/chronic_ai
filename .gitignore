@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+# This folder contains all your installed libraries
+venv/
+
+# Environment Variables
+# CRITICAL: This file contains your secret API keys
+.env
+*.env
+
+# Generated Report Folders
+# These are outputs from your agent, not source code
+chronic_agent/doctor_reports/
+chronic_agent/patients/reports/
+
+# OS / IDE specific files
+.DS_Store
+.vscode/
+.idea/

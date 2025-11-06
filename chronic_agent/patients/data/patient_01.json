@@ -1,0 +1,122 @@
+[
+  {
+    "vitals": [
+      {
+        "date": "2025-10-28T09:00:00Z",
+        "type": "blood_pressure",
+        "value": { "systolic": 142, "diastolic": 90 },
+        "unit": "mmHg"
+      },
+      {
+        "date": "2025-10-28T08:30:00Z",
+        "type": "blood_sugar",
+        "value": 152,
+        "unit": "mg/dL"
+      }
+    ],
+    "activity": {
+      "date": "2025-10-28",
+      "steps": 3250
+    },
+    "sleep": {
+      "date": "2025-10-27",
+      "duration_hours": 6.5
+    },
+    "medications": [
+      {
+        "name": "Metformin",
+        "status": "taken"
+      }
+    ]
+  },
+  {
+    "vitals": [
+      {
+        "date": "2025-10-29T09:00:00Z",
+        "type": "blood_pressure",
+        "value": { "systolic": 138, "diastolic": 86 },
+        "unit": "mmHg"
+      },
+      {
+        "date": "2025-10-29T08:15:00Z",
+        "type": "blood_sugar",
+        "value": 148,
+        "unit": "mg/dL"
+      }
+    ],
+    "activity": {
+      "date": "2025-10-29",
+      "steps": 4200
+    },
+    "sleep": {
+      "date": "2025-10-28",
+      "duration_hours": 7.0
+    },
+    "medications": [
+      {
+        "name": "Metformin",
+        "status": "taken"
+      }
+    ]
+  },
+  {
+    "vitals": [
+      {
+        "date": "2025-10-30T09:10:00Z",
+        "type": "blood_pressure",
+        "value": { "systolic": 145, "diastolic": 88 },
+        "unit": "mmHg"
+      },
+      {
+        "date": "2025-10-30T08:45:00Z",
+        "type": "blood_sugar",
+        "value": 160,
+        "unit": "mg/dL"
+      }
+    ],
+    "activity": {
+      "date": "2025-10-30",
+      "steps": 3100
+    },
+    "sleep": {
+      "date": "2025-10-29",
+      "duration_hours": 6.0
+    },
+    "medications": [
+      {
+        "name": "Metformin",
+        "status": "missed"
+      }
+    ]
+  },
+  {
+    "vitals": [
+      {
+        "date": "2025-11-04T09:05:00Z",
+        "type": "blood_pressure",
+        "value": { "systolic": 143, "diastolic": 91 },
+        "unit": "mmHg"
+      },
+      {
+        "date": "2025-11-04T08:45:00Z",
+        "type": "blood_sugar",
+        "value": 165,
+        "unit": "mg/dL"
+      }
+    ],
+    "activity": {
+      "date": "2025-11-04",
+      "steps": 2800
+    },
+    "sleep": {
+      "date": "2025-11-03",
+      "duration_hours": 5.9
+    },
+    "medications": [
+      {
+        "name": "Metformin",
+        "status": "missed"
+      }
+    ]
+  }
+]
