@@ -2,7 +2,7 @@ services:
   - type: web
     name: chronic-ai-agent
     env: python
-    pythonVersion: "3.12"
+    pythonVersion: "3.12.3"
     
     # --- KEY ---
     rootDir: chronic_agent 
