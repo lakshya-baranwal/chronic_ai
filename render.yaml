@@ -4,17 +4,19 @@ services:
     env: python
     pythonVersion: "3.12.3"
     
-    # --- KEY ---
+    # Tells Render to 'cd chronic_agent'
     rootDir: chronic_agent 
     
     buildCommand: "pip install -r ../requirements.txt"
     
     startCommand: "uvicorn api_server:app --host 0.0.0.0 --port $PORT"
     
+    # Attaches the persistent disk
     disks:
       - name: agent-storage
         mountPath: /var/data 
     
+    # Sets your secrets
     envVars:
       - key: GOOGLE_API_KEY
         fromSecret: true
